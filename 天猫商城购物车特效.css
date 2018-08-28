@@ -1,0 +1,542 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 2080px;
+    width: 100%;
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0;
+    min-width: 800px;
+}
+
+body .box {
+    margin: 40px auto 0;
+    width: 990px;
+    height: 603px;
+    display: flex;
+}
+
+body .box .image-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 417.5px;
+    height: 500px;
+}
+
+body .box .image-display>.image-display-first {
+    height: 417.5px;
+    box-shadow: 0 0 20px .1px black;
+}
+
+body .box .image-display>.image-display-first>img {
+    width: 100%;
+}
+
+body .box .image-display>div:nth-of-type(n + 2) {
+    height: 82px;
+    margin-left: 16px;
+}
+
+body .box .image-display>div:nth-of-type(n + 2)>img {
+    margin-top: 22px;
+}
+
+body .box .text-display {
+    width: 417.5px;
+    height: calc(100% - 500px);
+    display: flex;
+    justify-content: space-between;
+}
+
+body .box .text-display div {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+body .box .text-display div>img {
+    width: 13px;
+    height: 13px;
+}
+
+body .box .text-display div:nth-of-type(1) {
+    margin-left: 50px;
+}
+
+body .box .text-display div:nth-of-type(3) {
+    margin-right: 50px;
+}
+
+body .box .right-box {
+    margin-left: 20px;
+    width: 530px;
+}
+
+body .box .right-box>h1 {
+    text-indent: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+body .box .right-box>p {
+    background-image: url("picture/bgc.png");
+    height: 45px;
+    text-indent: 10px;
+    line-height: 45px;
+}
+
+body .box .right-box>p>span:first-child {
+    font-size: 13px;
+    color: #999;
+    vertical-align: middle;
+}
+
+body .box .right-box>p>strong {
+    margin-left: 30px;
+    color: red;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+body .box .right-box>p>span:nth-of-type(2) {
+    color: red;
+    font-size: 23px;
+    font-weight: 900;
+    vertical-align: middle;
+}
+
+body .box .right-box dl {
+    margin-bottom: 0;
+}
+
+body .box .right-box dl .assess {
+    height: 42.5px;
+    border-top: 1px dotted #c9c9c9;
+    border-bottom: 1px dotted #c9c9c9;
+}
+
+body .box .right-box dl .assess>span {
+    font-size: 13px;
+    color: #999;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    line-height: 42.5px;
+    text-align: center;
+}
+
+body .box .right-box dl .assess>span>strong {
+    margin-left: 7px;
+    font-weight: 700;
+}
+
+body .box .right-box dl .assess span:nth-of-type(1) {
+    border-right: .5px dotted #c9c9c9;
+}
+
+body .box .right-box dl .assess span:nth-of-type(1) strong {
+    color: red;
+}
+
+body .box .right-box dl .assess span:nth-of-type(2) {
+    border-left: .5px dotted #c9c9c9;
+}
+
+body .box .right-box dl .assess span:nth-of-type(2) strong {
+    color: green;
+}
+
+body .box .right-box dl dt {
+    margin-left: 10px;
+}
+
+body .box .right-box dl dt,
+body .box .right-box dl dd {
+    font-size: 13px;
+    color: #999;
+    display: inline;
+}
+
+body .box .right-box dl dd {
+    color: black;
+}
+
+body .box .right-box dl img {
+    width: 13px;
+    height: 13px;
+}
+
+body .box .right-box dl .assess {
+    margin-top: 15px;
+}
+
+body .box .right-box ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0 0 0 10px;
+    font-size: 13px;
+    color: #999;
+}
+
+body .box .right-box ul>li {
+    margin: 15px 0;
+}
+
+body .box .right-box ul>li>span:first-child {
+    margin-right: 30px;
+}
+
+body .box .right-box ul>li .img-div span {
+    padding: 0px 8px;
+}
+
+body .box .right-box ul>li>div {
+    vertical-align: middle;
+    display: inline-block;
+    color: black;
+}
+
+body .box .right-box ul>li>div>span {
+    display: inline-block;
+    border: 1px solid #b8b7bd;
+    margin-right: 15px;
+    text-align: center;
+    padding: 5px 8px;
+}
+
+body .box .right-box ul>li>div>span>img {
+    vertical-align: middle;
+}
+
+body .box .right-box ul>li>div>input {
+    height: 30px;
+    width: 46.5px;
+    outline: none;
+}
+
+body .box .right-box ul>li .input-div {
+    position: relative;
+}
+
+body .box .right-box ul>li .input-div>span {
+    position: absolute;
+    left: 110%;
+    height: 48%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+body .box .right-box ul>li .input-div span:nth-of-type(1) {
+    top: 0;
+    background-image: url(picture/up.png);
+}
+
+body .box .right-box ul>li .input-div span:nth-of-type(2) {
+    bottom: 0;
+    background-image: url(picture/down.png);
+}
+
+body .box .right-box ul>li .huabei {
+    vertical-align: middle;
+    display: inline;
+    margin-left: -5px;
+    height: 23.9px;
+    width: 163px;
+}
+
+body .box .right-box ul #huabei>div:nth-of-type(1) {
+    display: block;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+body .box .right-box ul #huabei>div:nth-of-type(1)>div {
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #b8b7bd;
+    margin-right: 10px;
+}
+
+#fenqi,
+#buy {
+    width: 180px;
+    height: 39.9px;
+    border: 1px solid red;
+    line-height: 39.9px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#fenqi {
+    margin: 10px 0 0 80px;
+    background-color: #ffeded;
+    color: #FF0036;
+    border-color: #FF0036;
+    float: left;
+}
+
+#buy {
+    position: relative;
+    color: white;
+    margin: 24.6px 0 0 270px;
+    background-color: #ff0036;
+}
+
+#buy>img:first-child {
+    margin-top: -3px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+#buy .buy_action {
+    border: 1px solid black;
+    position: fixed;
+    width: 90px;
+    height: 45px;
+    background-size: 100%;
+    background-image: url(picture/X.jpg);
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    height: 85px;
+}
+
+header>img {
+    width: 100%;
+}
+
+.shopping-cart {
+    position: fixed;
+    width: 35px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: black;
+}
+
+.shopping-cart>ul {
+    min-height: 455px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    margin-top: -50px;
+    pointer-events: none;
+}
+
+.shopping-cart>ul * {
+    pointer-events: auto;
+}
+
+.shopping-cart>ul>li {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.shopping-cart>ul>li:hover {
+    background-color: red;
+}
+
+.shopping-cart>ul>li>img {
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.shopping-cart>ul>li:first-child {
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.shopping-cart>ul>li:first-child>img {
+    height: 26px;
+    vertical-align: middle;
+    margin-top: -5px;
+    border-radius: 50%;
+}
+
+.shopping-cart>ul>li:nth-of-type(2) {
+    width: 100%;
+    height: 134px;
+    padding: 10px 0;
+    border: 1px solid #444;
+    border-width: 2px 0;
+}
+
+.shopping-cart>ul>li:nth-of-type(2)::after {
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.shopping-cart>ul>li:nth-of-type(2)>img {
+    width: 21px;
+    height: 21px;
+}
+
+.shopping-cart>ul>li:nth-of-type(2)>span {
+    color: white;
+    display: block;
+    width: 0;
+    margin: 3px 0 0 11px;
+    font-size: 13.9px;
+}
+
+.shopping-cart>ul>li:nth-of-type(2)>div {
+    margin-top: 8px;
+    display: inline-block;
+    background-color: #FF0036;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.shopping-cart>ul>li:nth-of-type(3),
+.shopping-cart>ul>li:nth-of-type(4),
+.shopping-cart>ul>li:nth-of-type(5),
+.shopping-cart>ul>li:nth-of-type(6),
+.shopping-cart>ul>li:nth-of-type(7),
+.shopping-cart>ul>li:nth-of-type(8) {
+    height: 36px;
+}
+
+.shopping-cart>ul>li:nth-of-type(3)>img,
+.shopping-cart>ul>li:nth-of-type(4)>img,
+.shopping-cart>ul>li:nth-of-type(5)>img,
+.shopping-cart>ul>li:nth-of-type(6)>img,
+.shopping-cart>ul>li:nth-of-type(7)>img,
+.shopping-cart>ul>li:nth-of-type(8)>img {
+    height: 26px;
+}
+
+.shopping-cart>ul>li:nth-of-type(6),
+.shopping-cart>ul>li:nth-of-type(7),
+.shopping-cart>ul>li:nth-of-type(8) {
+    position: absolute;
+    z-index: -5;
+    left: 0;
+}
+
+.shopping-cart>ul>li:nth-of-type(6) {
+    bottom: 80px;
+}
+
+.shopping-cart>ul>li:nth-of-type(7) {
+    bottom: 35px;
+}
+
+.shopping-cart>ul>li:nth-of-type(8) {
+    margin-bottom: 0;
+    bottom: 0;
+}
+
+li[id^="Sidebar"]::before {
+    color: white;
+    font-size: 11.7px;
+    font-weight: 600;
+    position: absolute;
+    top: 3px;
+    left: -118px;
+    display: block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    color: transparent;
+    background-color: transparent;
+    pointer-events: none;
+    transition: background-color .3s linear, left .3s linear, color .3s linear;
+}
+
+li[id^="Sidebar"]::after {
+    content: "";
+    position: absolute;
+    left: -38px;
+    top: 13px;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border: 6px solid transparent;
+    border-left-color: transparent;
+    pointer-events: none;
+    transition: border-left-color .3s linear, left .3s linear;
+}
+
+li[id^="Sidebar"]:hover::after {
+    left: 0px;
+    border-left-color: #494949;
+    pointer-events: auto;
+    transition: border-left-color .3s linear, left .3s linear;
+}
+
+li[id^="Sidebar"]:hover::before {
+    left: -80px;
+    color: white;
+    pointer-events: auto;
+    background-color: #494949;
+    transition: background-color .3s linear, left .3s linear;
+}
+
+#Sidebar-a::before {
+    content: "\4f1a\5458\6743\76ca";
+}
+
+#Sidebar-b::before {
+    content: "\6211\7684\8d44\4ea7";
+}
+
+#Sidebar-c::before {
+    content: "\6211\7684\6536\85cf";
+}
+
+#Sidebar-d::before {
+    content: "\6211\770b\8fc7\7684";
+}
+
+#Sidebar-e::before {
+    content: "\7528\6237\53cd\9988";
+}
+
+#Sidebar-f::after {
+    display: none;
+}
+
+#Sidebar-g::before {
+    content: "\8fd4\56de\9876\90e8";
+}
+
+.buy_num {
+    line-height: 18px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+
+/*# sourceMappingURL=%CC%EC%C3%A8%C9%CC%B3%C7%B9%BA%CE%EF%B3%B5%CC%D8%D0%A7.css.map */

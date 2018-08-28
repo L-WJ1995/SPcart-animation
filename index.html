@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="天猫商城购物车特效.css">
+	<title>天猫商城购物车特效</title>
+</head>
+<body>
+	<header><img src="picture/1.png" alt=""></header>
+	<div class="box">
+		<div class= "left-box">
+			<div class="image-display">
+				<div class="image-display-first"><img src="picture/1.jpg" alt=""></div>
+				<div><img src="picture/3.jpg" alt="" tabindex="-1" onclick="change(1)"></div>
+				<div><img src="picture/4.jpg" alt="" tabindex="-1" onclick="change(2)"></div>
+				<div><img src="picture/5.jpg" alt="" tabindex="-1" onclick="change(3)"></div>
+				<div><img src="picture/6.jpg" alt="" tabindex="-1" onclick="change(4)"></div>
+				<div><img src="picture/7.jpg" alt="" tabindex="-1" onclick="change(5)"></div>
+			</div>
+			<div class="text-display">
+				<div class="ico-1 share"><img src="picture/分享.png" alt=""><span>分享</span></div>
+				<div class="ico-1 keep"><img src="picture/收藏.png" alt=""><span>收藏商品</span></div>
+				<div class="heat"><span>(8888人气)</span></div>	
+			</div>
+		</div>
+		<div class="right-box">
+			<h1>Apple/苹果 iPhone X</h1>
+			<p><span>价格</span><strong>￥</strong><span>8888.00</span></p>
+			<dl>
+				<dt>运费</dt>
+				<dd>上海 至 无锡<img src="picture/sort-down-solid.svg" alt="">崇安区<img src="picture/sort-down-solid.svg" alt=""> 快递: 0.00</dd>
+				<div class="assess"><span>累计评价<strong>888</strong></span><span>送天猫积分<strong>960</strong></span></div>
+			</dl>
+			<ul>
+				<li><span>网络类型</span><div><span>无需合约版</span></div></li>
+				<li><span>机身颜色</span><div class="img-div"><span><img src="picture/111.jpg" alt="">黑色</span><span><img src="picture/222.jpg" alt="">深空灰色</span></div></li>
+				<li><span>储存容量</span><div><span>64GB</span><span>256GB</span></div></li>
+				<li><span>数量&emsp;&emsp;</span><div class="input-div"><input value="1" type="text"><span class="top"></span><span class="down"></span></div></li>
+				<li id="huabei">
+					<span>花呗分期</span>
+					<img class="huabei" src="picture/huabei.png" alt="">
+					<div>
+						<div><span>￥</span><strong>2835.75</strong><span>x3期<br>(含手续费)</span></div>
+						<div><span>￥</span><strong>1500.00</strong><span>x6期<br>(含手续费)</span></div>
+						<div><span>￥</span><strong>693.00</strong><span>x12期<br>(含手续费)</span></div>
+					</div>		
+				</li>
+				<div id="fenqi">分期购买</div>
+				<div id="buy" onclick="equation_fly(this)"><img src="picture/buy.png" alt="">加入购物车</div>
+			</ul>
+		</div>
+	</div>
+	<div class="shopping-cart">
+		<ul>
+			<li id="Sidebar-a"><img src="picture/id.jpg" alt=""></li>
+			<li id="S-buy"><img src="picture/购物车.png" alt=""><span>购物车</span><div class="buy_num">0</div></li>
+			<li id="Sidebar-b"><img src="picture/人民币.png" alt=""></li>
+			<li id="Sidebar-c"><img src="picture/星星.png" alt=""></li>
+			<li id="Sidebar-d"><img src="picture/历史记录.png" alt=""></li>
+			<li id="Sidebar-e"><img src="picture/书写.png" alt=""></li>
+			<li id="Sidebar-f"><img src="picture/盒子full.png" alt=""></li>
+			<li id="Sidebar-g"><img src="picture/top.png" alt=""></li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="天猫商城购物车特效.js"></script>	
+</body>
+</html>
